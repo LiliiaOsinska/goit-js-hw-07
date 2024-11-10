@@ -1,0 +1,217 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+}
+/* task 1 */
+.box-categories {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 24px;
+  border-radius: 8px;
+  padding: 24px;
+  width: 440px;
+  height: 888px;
+  background-color: #fff;
+}
+
+.categories-style {
+  font: 600 24px / 1.33 "Montserrat", sans-serif;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.li-style {
+  list-style-type: none;
+}
+.element-style {
+  font: 400 16px / 1.5 "Montserrat", sans-serif;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+/* task 3 */
+.input-style {
+  width: 360px;
+  height: 40px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  font: 400 16px / 1.5 "Montserrat", sans-serif;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.text-style {
+  font: 600 24px / 1.33 "Montserrat", sans-serif;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  margin-top: 16px;
+}
+/* task 4 */
+.login-form {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.label-form {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 8px;
+  width: 360px;
+  height: 72px;
+}
+
+.email-style {
+  width: 360px;
+  height: 40px;
+  border-radius: 4px;
+}
+.email-style:focus,
+.email-style:hover {
+  border: 1px solid #000;
+}
+
+.password-style {
+  width: 360px;
+  height: 40px;
+  border-radius: 4px;
+}
+
+.password-style:focus,
+.password-style:hover {
+  border: 1px solid #000;
+}
+
+.button-style {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 86px;
+  height: 40px;
+  border: none;
+  background-color: #4e75ff;
+  font: 500 16px / 1.5 "Montserrat", sans-serif;
+  letter-spacing: 0.04em;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.button-style:hover {
+  background-color: #6c8cff;
+}
+/* task 5 */
+.widget {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 8px;
+  padding: 100px 88px;
+  width: 345px;
+  height: 280px;
+  background-color: #fff;
+}
+
+.text-color {
+  font: 400 16px / 1.5 "Montserrat", sans-serif;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.change-color {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 148px;
+  height: 40px;
+  background-color: #4e75ff;
+  border: none;
+  font: 500 16px / 1.5 "Montserrat", sans-serif;
+  color: #fff;
+}
+/* task 6 */
+.input-number {
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 16px;
+  border: 1px solid #808080;
+  border-radius: 8px;
+  padding: 8px 72px;
+  height: 40px;
+}
+
+.button-create {
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 120px;
+  height: 40px;
+  background-color: #4e75ff;
+  border: none;
+  font: 500 16px / 1.5 "Montserrat", sans-serif;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.button-create:hover {
+  background-color: #6c8cff;
+}
+
+.button-destroy {
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 120px;
+  height: 40px;
+  background-color: #ff4e4e;
+  border: none;
+  font: 500 16px / 1.5 "Montserrat", sans-serif;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.button-destroy:hover {
+  background-color: #ff7070;
+}
+
+.create-box {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 10px;
+  border-radius: 8px;
+  padding: 32px;
+  background-color: #f6f6fe;
+}
